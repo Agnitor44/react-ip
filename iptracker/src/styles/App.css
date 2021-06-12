@@ -1,0 +1,611 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+div.App section.upperPanel {
+  height: 30vh;
+  width: 100%;
+  background-image: url("../images/pattern-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Rubik', sans-serif;
+  position: relative;
+}
+
+div.App section.upperPanel div.inputZone {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 10px;
+  height: 60%;
+}
+
+div.App section.upperPanel div.inputZone h3 {
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+div.App section.upperPanel div.inputZone form {
+  height: 55px;
+  width: 43%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.App section.upperPanel div.inputZone form input {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  border-radius: 15px 0 0 15px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+div.App section.upperPanel div.inputZone form input::-webkit-input-placeholder {
+  color: #969696;
+}
+
+div.App section.upperPanel div.inputZone form input:-ms-input-placeholder {
+  color: #969696;
+}
+
+div.App section.upperPanel div.inputZone form input::-ms-input-placeholder {
+  color: #969696;
+}
+
+div.App section.upperPanel div.inputZone form input::placeholder {
+  color: #969696;
+}
+
+div.App section.upperPanel div.inputZone form button {
+  border: none;
+  border-radius: 0 15px 15px 0;
+  height: 100%;
+  width: 10%;
+  background-color: #2b2b2b;
+  cursor: pointer;
+}
+
+div.App section.upperPanel div.resultPanel {
+  position: absolute;
+  z-index: 999;
+  bottom: -75px;
+  width: 78%;
+  height: 150px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+div.App section.upperPanel div.resultPanel ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+
+div.App section.upperPanel div.resultPanel ul li {
+  height: 80%;
+  width: 25%;
+  position: relative;
+  padding: 0 25px;
+  padding-top: 22px;
+  border-left: 1px solid #969696;
+}
+
+div.App section.upperPanel div.resultPanel ul li:nth-child(1) {
+  border: none;
+}
+
+div.App section.upperPanel div.resultPanel ul li h4 {
+  position: absolute;
+  top: -10px;
+  color: #969696;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+div.App section.upperPanel div.resultPanel ul li h2 {
+  top: 15px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+div.App .map {
+  height: 70vh;
+  width: 100%;
+}
+
+@media (max-width: 1040px) {
+  div.App section.upperPanel {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../images/pattern-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+  }
+  div.App section.upperPanel div.inputZone {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 10px;
+    height: 60%;
+  }
+  div.App section.upperPanel div.inputZone h3 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  div.App section.upperPanel div.inputZone form {
+    height: 50px;
+    width: 70%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.App section.upperPanel div.inputZone form input {
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  div.App section.upperPanel div.inputZone form input::-webkit-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input:-ms-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input::-ms-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input::placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form button {
+    border: none;
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+    width: 10%;
+    background-color: #2b2b2b;
+    cursor: pointer;
+  }
+  div.App section.upperPanel div.resultPanel {
+    position: absolute;
+    z-index: 999;
+    bottom: -75px;
+    width: 95%;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+  }
+  div.App section.upperPanel div.resultPanel ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+  }
+  div.App section.upperPanel div.resultPanel ul li {
+    height: 80%;
+    width: 25%;
+    position: relative;
+    padding: 0 25px;
+    padding-top: 10px;
+    border-left: 1px solid #969696;
+  }
+  div.App section.upperPanel div.resultPanel ul li:nth-child(1) {
+    border: none;
+  }
+  div.App section.upperPanel div.resultPanel ul li h4 {
+    position: absolute;
+    top: -10px;
+    color: #969696;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  div.App section.upperPanel div.resultPanel ul li h2 {
+    top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  div.App .map {
+    height: 70vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  div.App section.upperPanel {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../images/pattern-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+  }
+  div.App section.upperPanel div.inputZone {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 10px;
+    height: 60%;
+  }
+  div.App section.upperPanel div.inputZone h3 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  div.App section.upperPanel div.inputZone form {
+    height: 50px;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.App section.upperPanel div.inputZone form input {
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  div.App section.upperPanel div.inputZone form input::-webkit-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input:-ms-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input::-ms-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input::placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form button {
+    border: none;
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+    width: 10%;
+    background-color: #2b2b2b;
+    cursor: pointer;
+  }
+  div.App section.upperPanel div.resultPanel {
+    position: absolute;
+    z-index: 999;
+    bottom: -75px;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+  }
+  div.App section.upperPanel div.resultPanel ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+  }
+  div.App section.upperPanel div.resultPanel ul li {
+    height: 80%;
+    width: 25%;
+    position: relative;
+    padding: 0 25px;
+    padding-top: 10px;
+    border-left: 1px solid #969696;
+  }
+  div.App section.upperPanel div.resultPanel ul li:nth-child(1) {
+    border: none;
+  }
+  div.App section.upperPanel div.resultPanel ul li h4 {
+    position: absolute;
+    top: -10px;
+    color: #969696;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  div.App section.upperPanel div.resultPanel ul li h2 {
+    top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  div.App .map {
+    height: 70vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  div.App section.upperPanel {
+    height: 30vh;
+    width: 100%;
+    background-image: url("../images/pattern-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+  }
+  div.App section.upperPanel div.inputZone {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: -10px;
+    height: 60%;
+  }
+  div.App section.upperPanel div.inputZone h3 {
+    color: white;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+  }
+  div.App section.upperPanel div.inputZone form {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  div.App section.upperPanel div.inputZone form input {
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  div.App section.upperPanel div.inputZone form input::-webkit-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input:-ms-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input::-ms-input-placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form input::placeholder {
+    color: #969696;
+  }
+  div.App section.upperPanel div.inputZone form button {
+    border: none;
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+    width: 15%;
+    background-color: #2b2b2b;
+    cursor: pointer;
+  }
+  div.App section.upperPanel div.resultPanel {
+    position: absolute;
+    z-index: 999;
+    bottom: -180px;
+    width: 85%;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 0;
+  }
+  div.App section.upperPanel div.resultPanel ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+  }
+  div.App section.upperPanel div.resultPanel ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+    position: relative;
+    border: none;
+    padding: 9px 0;
+    margin: 0;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.App section.upperPanel div.resultPanel ul li h4 {
+    position: static;
+    padding: 3px 0;
+    color: #969696;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  div.App section.upperPanel div.resultPanel ul li h2 {
+    padding-top: 1px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  div.App .map {
+    height: 70vh;
+    width: 100%;
+  }
+}
+
+div.leaflet-control-zoom {
+  display: none;
+}
+/*# sourceMappingURL=App.css.map */
